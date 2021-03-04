@@ -7,9 +7,9 @@ module.exports = {
         filename:'bundle.js',
     },
     devServer:{
-        port:1000,
+        port:8099,
         contentBase:'www',
         hot:true,
-        host:'127.0.0.1'
+        host:'0.0.0.0'
     }
 }
